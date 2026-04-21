@@ -1,0 +1,266 @@
+Find the size of a Set in Python
+Story: You have a bag of unique toys. How many toys do you have?
+Sample Input:
+1
+bag = {"ball", "car", "puzzle", "car", "yo-yo"}
+Sample Output:
+1
+4
+
+Tip: Remember, sets only keep one of each thing!
+Iterate over a set in Python
+Story: You want to see every animal in your mini zoo, but the order doesn't matter.
+Sample Input:
+1
+animals = {"lion", "tiger", "bear"}
+Tip: The order may change every time. When is this helpful?
+Python - Maximum and Minimum in a Set
+Story: You played some games. What’s your best and worst score?
+Sample Input:
+1
+scores = {3, 7, 10, 2, 9}
+Sample Output:
+1
+2
+Max: 10
+Min: 2
+Tip: What Python functions can help you find biggest and smallest?
+Python - Remove items from Set
+Story: You want to take out an old toy from your toy box.
+Sample Input:
+1
+2
+toys = {"robot", "car", "doll"}
+# remove "doll"
+Sample Output:
+1
+{"robot", "car"}
+Tip: What’s the difference between remove and discard if the item isn't there?
+Python - Check if two lists have at-least one element common
+Story: You and your friend want to see if you both like any of the same cartoons.
+Sample Input:
+1
+2
+my_favs = ["Tom", "Jerry", "Ben 10"]
+friend_favs = ["Powerpuff", "Jerry", "Scooby"]
+Sample Output:
+1
+Yes! "Jerry" is common.
+Tip: Which set operation shows what you both like?
+Python program to find common elements in three lists using sets
+Story: Three friends want to pick a movie everyone likes. Which ones do they all like?
+Sample Input:
+1
+2
+3
+a = ["Toy Story", "Frozen", "Moana"]
+b = ["Moana", "Coco", "Frozen"]
+c = ["Frozen", "Moana", "Up"]
+Sample Output:
+1
+["Frozen", "Moana"]
+Tip: Can you use set.intersection for this?
+Python - Find missing and additional values in two lists
+Story: You compared last week's and this week's homework lists. What's missing and what's new?
+Sample Input:
+1
+2
+old_hw = ["math", "science", "art"]
+new_hw = ["math", "history", "science"]
+Sample Output:
+1
+2
+Missing: art
+Additional: history
+Tip: What set difference shows what you forgot?
+Python program to find the difference between two lists
+Story: What games do you want to play this week that you didn't play last week?
+Sample Input:
+1
+2
+last_week = ["hide", "seek", "tag"]
+this_week = ["hide", "seek", "jump", "run"]
+Sample Output:
+1
+["jump", "run"]
+Tip: Use set subtraction: A - B!
+Python Set difference to find lost element from a duplicated array
+Story: You had four marbles yesterday, now one is missing. Which one?
+Sample Input:
+1
+2
+yesterday = [1, 2, 3, 4]
+today = [1, 4, 2]
+Sample Output:
+1
+3
+Tip: What does set(yesterday) - set(today) give you?
+Python program to count number of vowels using sets in given string
+Story: You want to count the vowels in your secret code message.
+Sample Input:
+1
+msg = "hello world"
+Sample Output:
+1
+3
+Tip: Vowels can be put in a set for quick checking!
+Concatenated string with uncommon characters in Python
+Story: You and your friend invent two words. Make a mashup with only letters not shared by both.
+Sample Input:
+1
+2
+word1 = "apple"
+word2 = "orange"
+Sample Output:
+1
+"plrgn"
+Tip: What does set(word1) ^ set(word2) do?
+Python - Program to accept the strings which contains all vowels
+Story: Find all words that have a, e, i, o, and u!
+Sample Input:
+1
+words = ["education", "python", "sequoia"]
+Sample Output:
+1
+["education", "sequoia"]
+Tip: Can you check if the set of vowels is inside your word's letters?
+Python - Check if a given string is binary string or not
+Story: Is your note just 0s and 1s?
+Sample Input:
+1
+note = "101010"
+Sample Output:
+1
+Yes
+Sample Input:
+1
+note = "1201"
+Sample Output:
+1
+No
+Tip: What does set(note) show you?
+Python set to check if string is panagram
+Story: Does your sentence use every letter in the alphabet?
+Sample Input:
+1
+sentence = "The quick brown fox jumps over a lazy dog"
+Sample Output:
+1
+Yes
+Tip: Compare set of your letters with the alphabet set!
+Python Set - Pairs of complete strings in two sets
+Story: Pick a word from each basket to make a pair that covers all 26 letters!
+Sample Input:
+1
+2
+A = {"abc", "defg", "xyz"}
+B = {"mnopq", "rstuv", "wxyz"}
+Tip: Try making pairs and see if all alphabet letters are used together.
+Python program to check whether a given string is Heterogram or not
+Story: Does your word have only different letters, no repeats?
+Sample Input:
+1
+word = "lamp"
+Sample Output:
+1
+Yes
+Sample Input:
+1
+word = "hello"
+Sample Output:
+1
+No
+Tip: Compare len(set(word)) and len(word).
+Python program to convert Set into Tuple and Tuple into Set
+Story: You line up your toys (tuple—order matters), then put them in a toy box (set—order doesn’t matter).
+Sample Input:
+1
+toys_set = {"teddy", "robot", "ball"}
+Sample Output:
+1
+("teddy", "robot", "ball")
+Tip: What changes when you go from set to tuple and back?
+Python program to convert set into a list
+Story: You pour your collection of badges (set) out into a row (list) to show your friends.
+Sample Input:
+1
+badges = {"star", "moon", "heart"}
+Sample Output:
+1
+["star", "moon", "heart"]
+Tip: Does the list always come out in the same order?
+Python program to convert Set to String
+Story: You turn your collection of letters into a cool code word.
+Sample Input:
+1
+letters = {"A", "B", "C"}
+Sample Output:
+1
+"BAC"
+Tip: Set has no order—how can you make it alphabetical?
+Python program to convert String to Set
+Story: Find all different letters in your name!
+Sample Input:
+1
+myname = "samantha"
+Sample Output:
+1
+{'s', 'a', 'm', 'n', 't', 'h'}
+Tip: It's a fast way to spot repeated letters.
+Python - Convert a set into dictionary
+Story: Give each pet a number for your pet show.
+Sample Input:
+1
+pets = {"dog", "cat", "fish"}
+Sample Output:
+1
+{'dog': 0, 'cat': 1, 'fish': 2}
+Tip: Try using enumerate() to give each item a number.
+Python program to find union of n arrays
+Story: Collect favorite colors from all your classmates—what are all the colors?
+Sample Input:
+1
+2
+3
+4
+5
+friends_colors = [
+  ["red", "blue"],
+  ["green", "red"],
+  ["yellow", "blue"]
+]
+Sample Output:
+1
+{'red', 'blue', 'green', 'yellow'}
+Tip: What happens if someone likes the same color twice?
+Python - Intersection of two lists
+Story: Which stickers do you and your friend both have?
+Sample Input:
+1
+2
+mine = ["dino", "star", "moon"]
+yours = ["star", "rocket", "moon"]
+Sample Output:
+1
+{"star", "moon"}
+Tip: How is this different if you use a list instead of a set?
+Python program to get all subsets of given size of a set
+Story: How many different teams of 3 can you make from 5 kids?
+Sample Input:
+1
+2
+kids = {"Amy", "Bob", "Cara", "Dan", "Eva"}
+size = 3
+Sample Output:
+1
+("Amy", "Bob", "Cara")  # one possible team
+Tip: Which Python library helps you make all teams?
+Python - Minimum number of subsets with distinct elements using Counter
+Story: You have lots of marbles. How many bags do you need so that no bag has two marbles of the same color?
+Sample Input:
+1
+marbles = ["red", "blue", "red", "green", "blue", "red"]
+Sample Output:
+1
+3
+Tip: The most common color
