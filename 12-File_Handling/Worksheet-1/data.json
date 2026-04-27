@@ -1,0 +1,32 @@
+[
+    {
+        "TestCase": "test_valid_log",
+        "Status": "Pass",
+        "ExecutionTime": "0.02"
+    },
+    {
+        "TestCase": "test_info_log",
+        "Status": "Pass",
+        "ExecutionTime": "0.01"
+    },
+    {
+        "TestCase": "test_invalid_log",
+        "Status": "Pass",
+        "ExecutionTime": "0.01"
+    },
+    {
+        "TestCase": "test_warning_log",
+        "Status": "Fail",
+        "ExecutionTime": "0.03"
+    },
+    {
+        "TestCase": "test_timeout_case",
+        "Status": "Pass",
+        "ExecutionTime": "0.02"
+    },
+    {
+        "TestCase": "test_timeout_case",
+        "Status": "Fail",
+        "ExecutionTime": "0.04"
+    }
+]

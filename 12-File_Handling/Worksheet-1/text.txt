@@ -1,0 +1,5 @@
+1. Basic Syntax and Data Types
+• Task:
+• Write a script that reads a text file and counts the occurrence of each word.
+• Validation: Verify that the output dictionary correctly represents word counts for
+given test files.

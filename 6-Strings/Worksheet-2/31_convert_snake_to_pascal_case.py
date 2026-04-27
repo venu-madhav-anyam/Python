@@ -1,0 +1,5 @@
+s1 = input("Enter a string: ")
+s2 = s1.replace("_"," ")
+s2 = s2.title()
+s3 = s2.replace(" ","")
+print(s3)

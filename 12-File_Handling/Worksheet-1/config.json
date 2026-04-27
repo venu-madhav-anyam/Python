@@ -1,0 +1,10 @@
+{
+    "app_name": "TestRunner",
+    "version": "1.2.3",
+    "features": {
+        "logging": false,
+        "beta_mode": false
+    },
+    "max_retries": 3,
+    "feature_flag": true
+}

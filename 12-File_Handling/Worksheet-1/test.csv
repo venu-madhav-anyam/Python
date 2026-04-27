@@ -1,0 +1,7 @@
+TestCase,Status,ExecutionTime
+test_valid_log,Pass,0.02
+test_info_log,Pass,0.01
+test_invalid_log,Pass,0.01
+test_warning_log,Fail,0.03
+test_timeout_case,Pass,0.02
+test_timeout_case,Fail,0.04

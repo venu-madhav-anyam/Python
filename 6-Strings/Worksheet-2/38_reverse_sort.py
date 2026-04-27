@@ -1,0 +1,5 @@
+s1 = input("Enter a string: ")
+lst = list(s1)
+lst.sort()
+s2 = ''.join(lst)
+print(s2[::-1])
