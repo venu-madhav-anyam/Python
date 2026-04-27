@@ -1,0 +1,368 @@
+1. Crafting Your First Python Object: The Power of Instance Attributes
+Scenario:
+Imagine you're building a digital notebook. You want each note to have its own title and content.
+
+What you’ll learn:
+How to define classes and create objects with unique data
+The magic of instance attributes in organizing information
+
+Task:
+Design a Note class with title and content as instance attributes.
+Log Session two different note objects and print their details.
+
+Example:
+Suppose you create notes like “Meeting Notes” and “Grocery List”.
+
+Expected Output:
+
+1
+2
+Meeting Notes : Discuss project status with team.
+Grocery List : Eggs, Milk, Bread
+2. The Mysterious Empty Class: Why Bother?
+Scenario:
+You're designing a game and want to reserve a class for future magical creatures—but for now, it's empty.
+
+What you’ll learn:
+Why and how to define an empty class
+Using pass and setting up blueprints for future code
+
+Task:
+Log Session an empty MagicCreature class and show that you can still make objects from it.
+
+Example:
+You make a new MagicCreature object and print its type.
+
+Expected Output:
+
+1
+<class '__main__.MagicCreature'>
+3. Family Traits: Inheritance in Action with Vehicles and Buses
+Scenario:
+You’re modeling a transportation system. Buses are vehicles, so shouldn’t they share common features?
+
+What you’ll learn:
+Inheriting attributes and methods from a parent class
+The principle of code reuse and extension
+
+Task:
+Log Session a Vehicle class and a Bus class that inherits from it. Demonstrate shared behavior.
+
+Example:
+Suppose you make a Bus object and call its move() method.
+
+Expected Output:
+
+1
+Vehicle is moving
+4. Shape Shifters: Mastering Class Inheritance
+Scenario:
+Imagine you’re building a drawing tool. You have a general Shape, but want to specialize it into Circle and Square.
+
+What you’ll learn:
+The basics of inheritance
+How subclasses can extend or override parent class functionality
+
+Task:
+Log Session a Shape class with a method called draw(). Inherit and customize in Circle and Square.
+
+Example:
+If you create a Circle and ask it to draw():
+
+Expected Output:
+
+1
+Drawing a circle
+5. One for All: The Magic of Class Attributes
+Scenario:
+All students in a school belong to the same institution. How can you ensure this is reflected in every student object?
+
+What you’ll learn:
+Class (static) attributes: properties shared by all instances
+When and why to use them
+
+Task:
+Define a Student class where every student has the same school_name.
+
+Example:
+If you create two students and print their school_name:
+
+Expected Output:
+
+1
+Central High School Central High School
+6. Is That What I Think It Is? Type Checking Objects
+Scenario:
+You’re building a dynamic form. You need to know if a user input is a string, number, or something else.
+
+What you’ll learn:
+How to use type() and why it’s useful
+Avoiding type errors in your code
+
+Task:
+Check and print the type of various objects.
+
+Example:
+You create an integer and a string and check their types.
+
+Expected Output:
+
+1
+2
+<class 'int'>
+<class 'str'>
+7. Are You One of Us? Checking Class Membership
+Scenario:
+You want to make sure a Bus object can access special parking. But only if it’s really a Vehicle.
+
+What you’ll learn:
+Using isinstance() to check an object’s class or parent classes
+Dynamic type safety
+
+Task:
+Check if a Bus object is an instance of Vehicle.
+
+Example:
+You check with isinstance() for a Bus object.
+
+Expected Output:
+
+1
+True
+8. True Descendants: Subclass Checking
+Scenario:
+You’re building a plugin system and want to know if a new class is a valid type of plugin.
+
+What you’ll learn:
+The use of issubclass()
+Class relationships in Python
+
+Task:
+Check if Bus is a subclass of Vehicle.
+
+Example:
+You use issubclass() with Bus and Vehicle.
+
+Expected Output:
+
+1
+True
+9. Polymorphism in the Real World: Area of Shapes
+Scenario:
+You’re making a geometry tool. Different shapes need to compute area, but each does it differently.
+
+What you’ll learn:
+Polymorphism: different classes, same interface
+Practical OOP design patterns
+
+Task:
+Log Session a Shape base class with an area() method, then implement it differently in Circle and Square.
+
+Example:
+If you create a Square with side 4 and call area():
+
+Expected Output:
+
+1
+16
+10. All About Circles: Area and Perimeter
+Scenario:
+Designing a map app? You’ll want to know the area covered by a circular pond!
+
+What you’ll learn:
+Implementing methods with calculations
+Understanding encapsulation
+
+Task:
+Build a Circle class with area() and perimeter() methods.
+
+Example:
+For a circle of radius 3:
+
+Expected Output:
+
+1
+2
+28.27
+18.85
+11. Meet the Person: Calculate Age from Date of Birth
+Scenario:
+Log Session a birthday tracker! Determine someone’s age from their date of birth.
+
+What you’ll learn:
+Handling dates and calculating with them
+Real-world use of classes
+
+Task:
+Make a Person class and compute age.
+
+Example:
+For a person born on 2000-05-25 (today is 2025-05-25):
+
+Expected Output:
+
+1
+Alice is 25 years old.
+12. The Ultimate Calculator: Basic Arithmetic by OOP
+Scenario:
+Build your own pocket calculator with class-based design.
+
+What you’ll learn:
+Encapsulating operations in methods
+Using OOP for real utilities
+
+Task:
+Log Session a Calculator class with methods for add, subtract, multiply, and divide.
+
+Example:
+Adding 4 and 5, then dividing 10 by 2:
+
+Expected Output:
+
+1
+2
+9
+5.0
+13. The Shape Family: Hierarchies for Area and Perimeter
+Scenario:
+Simulate a graphics editor: various shapes with their own formulas.
+
+What you’ll learn:
+Creating class hierarchies
+Overriding methods for specialized behavior
+
+Task:
+Write a Shape base class, then subclasses for Circle, Triangle, and Square, each with its own area/perimeter.
+
+Example:
+If you create a Triangle with base 6 and height 4 and call area():
+
+Expected Output:
+
+1
+12.0
+14. Binary Find Tree: Smart Organization
+Scenario:
+Organize data for fast searching, like contacts or scores.
+
+What you’ll learn:
+Implementing data structures as classes
+Recursion in OOP
+
+Task:
+Build a BST class with methods for insertion and search.
+
+Example:
+Insert numbers and search for 5.
+
+Expected Output:
+
+1
+True or False (depending on search)
+15. Stack in Python: Undo That Move!
+Scenario:
+Log Session a feature like "undo" in a drawing app.
+
+What you’ll learn:
+How to build a stack (LIFO) using classes
+Using lists for stack operations
+
+Task:
+Implement a Stack class with push and pop methods.
+
+Example:
+Push 10, then 20; pop an element.
+
+Expected Output:
+
+1
+20
+16. The Linked List: Chain Reaction
+Scenario:
+Store and process data efficiently, like songs in a playlist.
+
+What you’ll learn:
+Building a linked list from scratch
+Understanding nodes and pointers
+
+Task:
+Write a LinkedList class with insert, delete, and display.
+
+Example:
+Add 10, then 20, and display list.
+
+Expected Output:
+
+1
+10 -> 20
+17. Shopping Cart: OOP for Online Stores
+Scenario:
+Simulate adding/removing items and computing the bill in an online store.
+
+What you’ll learn:
+Real-world application of classes
+Encapsulation and methods
+
+Task:
+Design a ShoppingCart class with add, remove, and total methods.
+
+Example:
+Add "Book" (2 × 200) and "Pen" (5 × 20); show total.
+
+Expected Output:
+
+1
+500
+18. Enhanced Stack: Show Me What’s Inside
+Scenario:
+See the current state of the stack—great for debugging.
+
+What you’ll learn:
+Extending existing classes
+Useful methods for state visibility
+
+Task:
+Add a display method to your Stack class to show its elements.
+
+Example:
+Push 1, then 2; display stack.
+
+Expected Output:
+
+1
+[1, 2]
+19. Queue It Up: Fair Turn for All
+Scenario:
+Manage waiting lines—like people in a ticket queue.
+
+What you’ll learn:
+Implementing a queue (FIFO) in Python
+Real-world queue management
+
+Task:
+Build a Queue class with enqueue and dequeue methods.
+
+Example:
+Enqueue 10, then 20; dequeue once.
+
+Expected Output:
+
+1
+10
+20. The Banking System: Managing Accounts with OOP
+Scenario:
+Simulate a simple bank system: create accounts, deposit, withdraw, and check balances.
+
+What you’ll learn:
+Using classes for real-life simulations
+Method design and data encapsulation
+
+Task:
+Log Session a BankAccount class with methods for deposit, withdraw, and balance check.
+
+Example:
+Start with balance 1000, deposit 500, withdraw 300, show balance.
+
+Expected Output:
+
+1
